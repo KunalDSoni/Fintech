@@ -9,7 +9,7 @@ A personal portfolio site covering work, startups, projects, and impact.
 - `index.html` — Home
 - `life.html` — Life / about
 - `startups.html` — Startups
-- `projects.html` — Projects
+- `products.html` — Projects
 - `impact.html` — Impact
 - `styles.css` — Shared styles
 - `script.js` — Shared scripts
