@@ -2,6 +2,8 @@
 
 A personal portfolio site covering work, startups, projects, and impact.
 
+**Live site:** https://kunaldsoni.github.io/Fintech/
+
 ## Structure
 
 - `index.html` — Home

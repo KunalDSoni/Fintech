@@ -55,35 +55,33 @@
 <main class="page__main">
   <section class="page__head">
     <p class="eyebrow dark">Life</p>
-    <h1 class="display">A few photos, in <em>no particular order</em> - except the year.</h1>
-    <p class="lede">Off the roadmap. The places, faces, and frames that fill the gap between releases.</p>
+    <h1 class="display">Moments<span class="dot">.</span></h1>
+    <p class="lede" style="margin: 0 auto; text-align: center; font-style: italic; white-space: nowrap; max-width: none;">Off the roadmap - the places, faces, and frames that fill the gap between releases.</p>
   </section>
 
   <section class="life" id="travel">
     <article class="life-year life-year--hero">
-      <header class="life-year__head life-year__head--hero">
-        <span class="life-year__num">Travel</span>
-        <span class="life-year__note">the dune day</span>
-      </header>
-      <figure class="life-photo life-photo--xl" style="--rot:-2deg">
-        <div class="life-photo__frame">
-          <img src="Personal/Dubai%20Desert%20Safari.jpg" alt="Dubai desert safari" loading="lazy" />
+      <header class="life-year__head life-year__head--hero" style="flex-direction:column;align-items:flex-start;gap:8px;">
+        <p class="eyebrow dark" style="margin:0;">Travel</p>
+        <div style="display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;">
+          <span class="life-year__num">Dubai, UAE</span>
+          <span class="life-year__note">skylines and dunes</span>
         </div>
-        <figcaption>Dubai desert safari</figcaption>
-      </figure>
-    </article>
-
-    <article class="life-year life-year--hero">
-      <header class="life-year__head life-year__head--hero">
-        <span class="life-year__num">Dubai</span>
-        <span class="life-year__note">tallest skyline in the world</span>
       </header>
-      <figure class="life-photo life-photo--xl" style="--rot:2deg">
-        <div class="life-photo__frame">
-          <img src="Personal/Burj%20Khalifa.png" alt="Burj Khalifa, Dubai" loading="lazy" />
-        </div>
-        <figcaption>Burj Khalifa</figcaption>
-      </figure>
+      <div class="travel-videos" style="grid-template-columns:repeat(2,1fr);max-width:820px;">
+        <figure class="life-photo" style="--rot:-3deg">
+          <div class="life-photo__frame">
+            <img src="Personal/Burj%20Khalifa.png" alt="Burj Khalifa, Dubai" loading="lazy" />
+          </div>
+          <figcaption>Burj Khalifa</figcaption>
+        </figure>
+        <figure class="life-photo" style="--rot:3deg">
+          <div class="life-photo__frame">
+            <img src="Personal/Dubai%20Desert%20Safari.jpg" alt="Dubai desert safari" loading="lazy" style="object-position:25% center;" />
+          </div>
+          <figcaption>Dubai desert safari</figcaption>
+        </figure>
+      </div>
     </article>
 
     <article class="life-year life-year--hero">
@@ -109,6 +107,34 @@
         </figure>
       </div>
     </article>
+
+    <article class="life-year life-year--hero">
+      <header class="life-year__head life-year__head--hero">
+        <span class="life-year__num">India</span>
+        <span class="life-year__note">where it started, where it grew</span>
+      </header>
+      <div class="travel-videos">
+        <figure class="life-photo" style="--rot:-3deg">
+          <div class="life-photo__frame">
+            <img src="Personal/Ahmedabad.jpg" alt="Ahmedabad" loading="lazy" />
+          </div>
+          <figcaption>Ahmedabad</figcaption>
+        </figure>
+        <figure class="life-photo" style="--rot:0deg">
+          <div class="life-photo__frame">
+            <img src="Personal/Mumbai/Gateway%20Of%20India%20Mumbai.jpg" alt="Gateway of India, Mumbai" loading="lazy" />
+          </div>
+          <figcaption>Gateway of India</figcaption>
+        </figure>
+        <figure class="life-photo" style="--rot:3deg">
+          <div class="life-photo__frame">
+            <img src="Personal/Mumbai/Antilia.jpg" alt="Antilia, Mumbai" loading="lazy" />
+          </div>
+          <figcaption>Antilia</figcaption>
+        </figure>
+      </div>
+    </article>
+
   </section>
 
   <section class="life-love" id="food">
@@ -116,7 +142,7 @@
       <div class="life-love__copy">
         <p class="eyebrow dark">Food</p>
         <h2 class="display">Thali first, <em>everything else later.</em></h2>
-        <p class="life-love__caption">Being a Gujarati - it has to be Gujarati food.<br/>And don't be shocked: this thali is for <em>one person.</em> <span aria-hidden="true">😉</span></p>
+        <p class="life-love__caption">Being a Gujarati - it has to be Gujarati food.</p>
       </div>
       <figure class="life-photo life-photo--big" style="--rot:-2.5deg">
         <div class="life-photo__frame">

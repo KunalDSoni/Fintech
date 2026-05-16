@@ -171,6 +171,7 @@ h1,h2,h3,h4,.display,.hero__title,.num,blockquote{font-family:'Archivo',sans-ser
   margin:18px 0 36px;
 }
 .display.light{color:#fff}
+.dot{color:var(--accent)}
 .lede{font-size:21px;line-height:1.5;color:var(--muted);max-width:680px}
 
 /* ---------- CARDS ---------- */
