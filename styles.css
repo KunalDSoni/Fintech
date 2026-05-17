@@ -11,7 +11,7 @@
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
-html{scroll-behavior:smooth;scroll-padding-top:130px}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
 body{
   font-family:'Archivo',system-ui,sans-serif;
   background:var(--paper);
@@ -162,8 +162,9 @@ h1,h2,h3,h4,.display,.hero__title,.num,blockquote{font-family:'Archivo',sans-ser
 @keyframes scroll{to{transform:translateX(-50%)}}
 
 /* ---------- INTRO ---------- */
-.intro{padding:160px 40px 100px;max-width:var(--maxw);margin:0 auto}
-.intro__grid{max-width:980px}
+.intro{padding:160px 40px 100px;max-width:var(--maxw);margin:0 auto;text-align:center}
+.intro__grid{max-width:980px;margin:0 auto}
+.intro .lede{margin-left:auto;margin-right:auto}
 .display{
   font-family:'Archivo',sans-serif;font-weight:900;
   font-size:clamp(40px, 5.4vw, 78px);
@@ -294,9 +295,9 @@ h1,h2,h3,h4,.display,.hero__title,.num,blockquote{font-family:'Archivo',sans-ser
 .page__head .locale-row{margin:24px 0 0;padding-bottom:0}
 .page__head .display{margin-top:16px}
 
-.timeline-wrap{padding:80px 40px 80px}
+.timeline-wrap{padding:80px 40px 80px;text-align:center}
 .timeline-wrap__inner{max-width:var(--maxw);margin:0 auto}
-.timeline-wrap .display{margin-bottom:48px;max-width:1000px}
+.timeline-wrap .display{margin-bottom:48px;max-width:1000px;margin-left:auto;margin-right:auto}
 .timeline{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--ink)}
 .job{display:grid;grid-template-columns:240px 1fr;gap:48px;padding:48px 0;border-bottom:1px solid var(--line)}
 .job__when{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;padding-top:6px}
@@ -537,7 +538,8 @@ h1,h2,h3,h4,.display,.hero__title,.num,blockquote{font-family:'Archivo',sans-ser
   text-transform:uppercase;
 }
 .locale-row--hero{color:#fff;margin:-8px 0 24px}
-.hero--plain{background:#fff;color:var(--ink);height:auto;min-height:0;padding:180px 0 100px;align-items:flex-start}
+.hero--plain{background:#fff;color:var(--ink);height:auto;min-height:0;padding:180px 0 100px;align-items:center;text-align:center}
+.hero--plain .locale-row{justify-content:center}
 .hero--plain .eyebrow{color:var(--accent);opacity:1;margin:0 0 22px}
 .hero--plain .locale-row{color:var(--ink);margin:0 0 28px}
 .hero--plain .hero__title{color:var(--ink)}
